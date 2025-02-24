@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diseño Grid</title>
+    <style>
+        .header, .footer { background: #282c34; color: rgb(65, 65, 65); padding: 20px; text-align: center; }
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 10px;
+            padding: 20px;
+        }
+        .grid-item {
+            background: rgb(0, 191, 255);
+            padding: 20px;
+            text-align: center;
+            border-radius: 5px;
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">Cabecera</div>
+    <div class="grid-container">
+        <div class="grid-item">1</div>
+        <div class="grid-item">2</div>
+        <div class="grid-item">3</div>
+        <div class="grid-item">4</div>
+    </div>
+    <div class="footer">Pie de Página</div>
+</body>
+</html>

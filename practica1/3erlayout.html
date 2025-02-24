@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Solo tiene Tres Columnas</title>
+    <style>
+        body { margin: 0; font-family: Arial, sans-serif; display: flex; flex-direction: column; }
+        .header, .footer { background: #282c34; color: white; padding: 20px; text-align: center; }
+        .container { display: flex;
+        height: 400px;}
+        .sidebar-left { width: 20%; background: #8e33e2; padding: 50px; }
+        .content { width: 60%; background: #2bff60; padding: 60px; }
+        .sidebar-right { width: 20%; background: #28f8ff; padding: 50px; }
+    </style>
+</head>
+<body>
+    <div class="header">Encabezado</div>
+    <div class="container">
+        <div class="sidebar-left">Barra de menus</div>
+        <div class="content">Contenido</div>
+        <div class="sidebar-right">Barra Derecha</div>
+    </div>
+    <div class="footer">Pie de Página</div>
+</body>
+</html>

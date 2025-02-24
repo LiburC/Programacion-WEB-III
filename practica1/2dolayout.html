@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solo tiene dos Columnas</title>
+    <style>
+        body { margin: 0; font-family: Arial, sans-serif; display: flex; flex-direction: column; }
+        .header, .footer { background: #333; color: white; padding: 20px; text-align: center; }
+        .container { display: flex; }
+        .sidebar { width: 30%; background: hsl(133, 85%, 60%); padding: 200px; }
+        .content { width: 70%; background: #ff9090; padding: 200px; }
+    </style>
+</head>
+<body>
+    <div class="header">Encabezado</div>
+    <div class="container">
+        <div class="sidebar">Barra de menus</div>
+        <div class="content">Contenido </div>
+    </div>
+    <div class="footer">Pie de Página</div>
+</body>
+</html>
